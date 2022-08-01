@@ -458,8 +458,19 @@ footer div{
     } 
 }
 }
+
 @media screen and (max-width:510px){
-    .galeria-porta{
+    .body-porta {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .footer-porta{
+        margin-left: 45%;
+        justify-content: space-around;
+}
+}
+    /*.galeria-porta{
         margin-left: 23%;
     }
     .header-porta{
@@ -477,8 +488,8 @@ footer div{
     .footer-porta{
         margin-left: 45%;
         justify-content: space-around;
-    }
-}
+    }*/
+
     @media screen and (max-width:475px){
         
         .grid-container-nosotros{
