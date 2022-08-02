@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 /*Barra de navegacion*/
+
 header{
     background-color: black;
     padding: 10px;
@@ -12,6 +13,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo{
+    width: 330px;
+    height: 180px;
 }
 header img {
 width: 35%;    
