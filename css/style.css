@@ -18,9 +18,18 @@ header{
     width: 330px;
     height: 180px;
 }
+header nav{
+    background-color:black;
+}
+.boton-burger {
+    color: azure;
+}
 header img {
-width: 35%;    
+width: 45%;    
 height: 170px;
+}
+.enlace{
+color: azure;
 }
 header nav ul{
     list-style: none;
