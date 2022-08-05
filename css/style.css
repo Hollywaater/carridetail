@@ -15,7 +15,7 @@ header{
     align-items: center;
 }
 .logo{
-    width: 330px;
+    width: 430px;
     height: 180px;
 }
 header nav{
@@ -72,9 +72,9 @@ color: black;
 
 .hero-titulo {
     color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
     text-align: center;
-    font-size: 50px;
+    font-size: 100px !important;
     font-weight: 800;
     font-style: italic;
     letter-spacing: 7px;
@@ -85,6 +85,11 @@ color: black;
     text-align: center;
     font-size: 40px;
     font-weight: 900px;
+}
+/*********Carrusel de imagenes*********/
+.img-c{
+    height: 600px;
+    object-fit: cover;
 }
 /*Cards de servicios*/
 body{
@@ -253,6 +258,9 @@ footer div{
     text-align: center;
     margin-bottom: 5px;
     color: blueviolet;
+}
+footer {
+    margin: 20px;
 }
 
 /*Page Porta*/
