@@ -88,7 +88,7 @@ color: black;
 }
 /*********Carrusel de imagenes*********/
 .img-c{
-    height: 600px;
+    height: 500px;
     object-fit: cover;
 }
 /*Cards de servicios*/
