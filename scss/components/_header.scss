@@ -2,14 +2,13 @@ header{
     background-color: black;
     padding: 10px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    .logo{
-        width: 400px;
-        height: 180px;
+    .flex-header{
+        display: flex;
+        justify-content: space-between;
     }
     nav{
+        align-items: center;
         ul{
             list-style: none;
             li{
@@ -35,4 +34,18 @@ header{
             }
         }
     }
+}
+.logo{
+    width: 320px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 5px
+    ;
+    
+}
+.barra-buscadora{
+    margin-top: 20px;
+}
+.clich{
+    align-items: flex-start;
 }
