@@ -1,5 +1,6 @@
+@import"../base/variables";
 header{
-    background-color: black;
+    background-color: $color-back;
     padding: 10px;
     width: 100%;
     align-items: center;
@@ -19,16 +20,16 @@ header{
                 }
                 a{
                     text-decoration: none;
-                    color: orangered;
+                    color: $color-ban;
                     font-size: 20px;
                     font-weight: 900;
                     font-family:monospace;
-                    border: 2px solid blue;
+                    border: 2px solid $color-principal;
                     border-radius: 10px;
                     padding: 3px;
                     transition: 2s;
                     &:hover{
-                        color: azure;
+                        color: $color-animation;
                     }
                 }
             }
