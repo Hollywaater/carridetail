@@ -1,11 +1,10 @@
 @import"../base/variables";
+@import"../base/extend.scss";
 footer{
     margin-top: 20px;
     margin-bottom: 20px;
     div{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @extend %flex-footer;
             img{
                 width: 60px;
                 height: 60px;
