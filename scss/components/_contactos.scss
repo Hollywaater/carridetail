@@ -6,14 +6,11 @@
     }
 
 }
-.formulario {
+.formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    background-image: url(../img/gal13.gif);
-    background-size: cover;
-    background-position: center;
     .coment{
         color: $color-formulario;
         font-size: 15px;
@@ -23,4 +20,9 @@
         margin-top: 8px;
         margin-bottom: 8px;
     }
+}
+.formulario{
+    background-image: url(https://www.eventosmotor.com/wp-content/uploads/2021/06/chevrolet_corvette_sportsman_red_41.jpg);
+    background-size: cover;
+    background-position: center;
 }

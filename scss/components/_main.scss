@@ -9,6 +9,7 @@ body{
     width: 100%;
     margin-bottom: 10px;
     background-image: url("../img/imginicio.png");
+    opacity: 85%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -41,10 +42,12 @@ body{
 .ofertas{
     h2{
         color: $color-secundario;
-        font-size: 30px;
-        font-weight: 900;
+        font-size: 35px;
+        font-weight: 100;
         text-align: center;
+        letter-spacing: 2px;
         margin-bottom: 10px;
+        font-family:Rubik Dirt;
     }
     div{
         div{
@@ -98,15 +101,54 @@ body{
     }
     .historia-inicio-ag{
         color: $color-animation;
-        font-size: 15px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 15px;
+        margin-right: 15px;
         text-align: center;
         line-height: 30px;
         h3{
-            font-size: 25px;
+            font-size: 30px;
             color: $color-gold;
+            font-family: bangers;
         }
     }
     
+}
+.texto-ban{
+    color: $color-text;
+    background-color: black;
+    opacity: 60%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bk-boten{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    opacity: 65%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.bk-boten1{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.bk-boten2{
+    color: red;
+    margin-top: 40px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.bk-boten3{
+    color: azure;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 /*Boton de Wp*/
 .boton-wp{

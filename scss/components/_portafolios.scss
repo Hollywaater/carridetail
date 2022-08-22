@@ -1,13 +1,15 @@
 .text-porta{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     text-align: center;
     margin: 7px;
     padding: 5px;
     color: antiquewhite;
     height: 8%;
     h3{
-        color: blueviolet;
-        font-size: 25px;
+        color: $color-pages;
+        font-size: 40px;
+        font-family: bangers;
         margin-top: 10px;
         margin-bottom: 10px;
         height: 12%;
